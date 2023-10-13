@@ -14,7 +14,7 @@ public class lightswitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp (KeyCode.L)){
+        if(Input.GetKeyUp (KeyCode.Space)){
             light.enabled = !light.enabled;
         }
     }

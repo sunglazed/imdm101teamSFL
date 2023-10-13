@@ -16,7 +16,7 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.L) && !rotating)
+        if(Input.GetKeyUp(KeyCode.Space) && !rotating)
         {
             StartCoroutine(Rotate180());
         }
