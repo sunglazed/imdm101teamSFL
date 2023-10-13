@@ -350,9 +350,10 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.8f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/lightswitch.cs"
-"Assets/Oscillator.cs"
-"Assets/Rotate.cs"
+"Assets/Scripts/BackgroundColor.cs"
+"Assets/Scripts/lightswitch.cs"
+"Assets/Scripts/Oscillator.cs"
+"Assets/Scripts/Rotate.cs"
 "Assets/Zololgo/OrbitZoomPanCamera/Scripts/OrbitZoomPanCamera.cs"
 -langversion:9.0
 
