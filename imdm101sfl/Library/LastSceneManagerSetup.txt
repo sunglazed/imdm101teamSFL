@@ -1,6 +1,5 @@
 sceneSetups:
-- path: Assets/Zololgo/FlatPoly Floating Islands/Scenes/Flatpoly Floating Islands
-    Sample.unity
+- path: Assets/Scenes/Flatpoly Floating Islands Sample.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
