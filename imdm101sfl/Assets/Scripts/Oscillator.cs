@@ -13,19 +13,21 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = 2;
-        width = 20;
-        height = 10;
+        speed = 1f;
+        width = 1.5f;
+        height = 1.5f;
     }
 
     // Update is called once per frame
     void Update()
     {
         timecounter += Time.deltaTime * speed;
-        float x = Mathf.Cos (timecounter) * width;
-        float y = Mathf.Sin (timecounter) * height;
-        float z = 0;
+        float z = Mathf.Cos (timecounter) * width;
+        float x = Mathf.Sin (timecounter) * height;
+        float y = 0;
 
-        transform.position = new Vector3(x,y,z);
+        transform.position = new Vector3(x + (-20.4f),y + (0.2401813f),z + (-6.719656f));
+        Debug.Log(Time.deltaTime);
+        transform.Rotate(new Vector3(0, 78, 0) * 0.002f);
     }
 }
